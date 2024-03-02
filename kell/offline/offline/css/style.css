@@ -1,0 +1,84 @@
+:root {
+    --cor-branco: #ffffff;
+    --cor-2: #fcfcfce7;
+    --cor-verde-claro: #66ff99;
+    --cor-verde-medio: #00cc66;
+    --cor-verde-escuro: #006633;
+    --cor-rosa-claro: #fdc0ff;
+    --cor-rosa: #ba69bd;
+}
+
+.bgnwhite{
+    background-color: #ececec;
+}
+
+.textnav{
+    color: var(--cor-verde-medio);
+}
+
+.kellborder {
+    border: 3px;
+    border-color: var(--cor-verde-claro);
+    border-style: solid !important;
+}
+
+.bgbody{
+    background-color: var(--cor-rosa-claro);
+}
+
+.bgartigo{
+    background-color: var(--cor-2);
+    border-radius: 2%;
+    padding: 35px;
+    margin-top: 40px;
+}
+
+.artigotext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+.footer{
+    margin-top: 35px;
+    height: 125px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-verde-medio);
+}
+
+.frase{
+    padding: 20px;
+    color: var(--cor-rosa-claro);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.textrosa{
+    color: var(--cor-rosa-claro);
+}
+
+.bgrosa{
+    background-color: var(--cor-rosa);
+}
+
+.textverde{
+    color: var(--cor-verde-claro);
+}
+
+.bgverde{
+    background-color: var(--cor-verde-escuro);
+}
+
+.contatostitulo{
+    color: var(--cor-rosa-claro);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.contatos{
+    color: var(--cor-rosa-claro);
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
